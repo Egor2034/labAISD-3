@@ -39,3 +39,22 @@
 
 # debug information files
 *.dwo
+
+# CMake generated files
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Editor/IDE specific files (examples)
+.idea/ # CLion
+.vscode/ # VS Code
+*.iml # IntelliJ IDEA
+
+# Executables and libraries (if not intended for version control)
+*.exe
+*.dll
+*.so
+*.a
